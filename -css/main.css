@@ -26,9 +26,12 @@ body {
   a:hover, a:active {
     background-color: blue;
   }
+  td :nth-child(even){
+    background-color: #D6EEEE;
+  }
   table, th, td{
     
-    width: 50%;
+    width: 100%;
     border: 1px solid black;
     border-collapse:collapse;
 
@@ -36,14 +39,38 @@ body {
   th, td{
     width: 10%;
     background-color:blanchedalmond;
-    
     text-align: center;
   }
   th:hover{
-    background-color:red ;
+    background-color:yellowgreen ;
     color:white;
   }
-  tr:nth-child(){
-    background-color: #D6EEEE;
 
-  }
+#style1 {
+  background-color: beige;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
