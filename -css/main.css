@@ -27,13 +27,14 @@ body {
     background-color: blue;
   }
   table, th, td{
+    
     width: 50%;
     border: 1px solid black;
     border-collapse:collapse;
 
   }
   th, td{
-    width: 30%;
+    width: 10%;
     background-color:blanchedalmond;
     
     text-align: center;
@@ -42,7 +43,7 @@ body {
     background-color:red ;
     color:white;
   }
-  tr:nth-child(even){
-    background-color: blueviolet;
+  tr:nth-child(){
+    background-color: #D6EEEE;
 
   }
